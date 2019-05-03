@@ -1,0 +1,48 @@
+.heading{
+  height: 10% ;
+  background-color: blue;
+}
+.footing{
+ 
+  background-color: blue;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.navigationbar{
+  height: 10%;
+  background-color: chartreuse;
+}
+
+.bodypart{
+  height: 60vh;
+  background-size: cover;
+  background-color: cadetblue;
+}
+
+.myFooter{
+  height: 20vh;
+  background-color: brown;
+}
+
+.col-lg-10{
+    align-content: center;
+}
+.col-lg-12{
+  align-content: center;
+}
+.myHeader{
+  background-color: aqua;
+  text-align: center;
+  color: blue;
+}
+.sidenav {
+  padding-top: 20px;
+  background-color: orange;
+  height: 60vh;
+}
+.body{
+height: 60vh;
+background-color:red;
+
+}
