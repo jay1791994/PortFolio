@@ -1,4 +1,4 @@
-.heading{
+/* .heading{
   height: 10% ;
   background-color: blue;
 }
@@ -11,7 +11,7 @@
 
 .navigationbar{
   height: 10%;
-  background-color: chartreuse;
+  background-color: cyan;
 }
 
 .bodypart{
@@ -38,11 +38,36 @@
 }
 .sidenav {
   padding-top: 20px;
-  background-color: crimson;
-  height: 60vh;
+  background-color:blue;
+  height: 90vh;
+  box-align: center;
+  
 }
 .body{
 height: 60vh;
-background-color:red;
+background-color: white;
 
+}
+.foot{
+  background-color: black;
+  height: 10vh;
+} */
+
+
+.sidenav{
+  height: 80vh;
+  background-color: darkcyan;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  
+}
+
+.footer{
+  background-color: black;
+  height: 10vh;
+}
+
+.body{
+  background-color: white;
+  height: 80vh;
 }

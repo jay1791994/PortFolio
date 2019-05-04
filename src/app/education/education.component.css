@@ -1,0 +1,13 @@
+.navbar-inverse{
+    background-color: blue;
+}
+.navbar-nav a{
+  text-align: center;
+  color: white;
+  font-size: 300%;
+  
+}
+#link :hover{
+    background-color: white;
+    color: blue;
+}
