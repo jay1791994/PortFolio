@@ -1,62 +1,11 @@
-/* .heading{
-  height: 10% ;
-  background-color: blue;
-}
-.footing{
- 
-  background-color: blue;
-  margin-bottom: 0%;
-  margin-top: 0%;
-}
 
-.navigationbar{
-  height: 10%;
-  background-color: cyan;
+.page{
+  background-image: url("/assets/backgroundpage.jpg");
 }
-
-.bodypart{
-  height: 60vh;
-  background-size: cover;
-  background-color: cadetblue;
-}
-
-.myFooter{
-  height: 20vh;
-  background-color: brown;
-}
-
-.col-lg-10{
-    align-content: center;
-}
-.col-lg-12{
-  align-content: center;
-}
-.myHeader{
-  background-color: aqua;
-  text-align: center;
-  color: blue;
-}
-.sidenav {
-  padding-top: 20px;
-  background-color:blue;
-  height: 90vh;
-  box-align: center;
-  
-}
-.body{
-height: 60vh;
-background-color: white;
-
-}
-.foot{
-  background-color: black;
-  height: 10vh;
-} */
-
 
 .sidenav{
   height: 80vh;
-  background-color: darkcyan;
+  background-color: dodgerblue;
   margin-top: 5%;
   margin-bottom: 0%;
   
