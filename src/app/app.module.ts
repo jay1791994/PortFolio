@@ -13,6 +13,7 @@ import { CredentialsComponent } from './credentials/credentials.component';
 import { ContactComponent } from './contact/contact.component';
 import { BachelorComponent } from './bachelor/bachelor.component';
 import { MasterComponent } from './master/master.component';
+import { RightsideComponent } from './rightside/rightside.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MasterComponent } from './master/master.component';
     CredentialsComponent,
     ContactComponent,
     BachelorComponent,
-    MasterComponent
+    MasterComponent,
+    RightsideComponent
   ],
   imports: [
     BrowserModule,
