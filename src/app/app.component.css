@@ -5,7 +5,7 @@
 
 .sidenav{
   height: 80vh;
-  background-color: dodgerblue;
+  background:linear-gradient(to bottom, #072f5f 40%, #1261A0 100%);
   margin-top: 5%;
   margin-bottom: 0%;
   

@@ -1,3 +1,192 @@
-<p>
-  projects works!
-</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4">
+      <button type="button"  class="btn btn-outline-primary" (click)="onclick()" [attr.aria-expanded]="iscollapse"
+        aria-controls="collapseExample" [style.background-color]="iscollapse == false ? 'blue' : 'grey'" [style.color]="iscollapse == false ? 'white' : 'black'">
+        Jan 2019 - APR 2019
+      </button>
+    </div>
+    <div class="col-lg-4">
+      <button type="button" class="btn btn-outline-primary" (click)="onclick1()" [attr.aria-expanded]="iscollapse1"
+        aria-controls="collapseExample" [style.background-color]="iscollapse1 == false ? 'blue' : 'grey'" [style.color]="iscollapse1 == false ? 'white' : 'black'">
+        Jul 2018 - Jan 2019
+      </button>
+    </div>
+    <div class="col-lg-4">
+      <button type="button" class="btn btn-outline-primary" (click)="onclick2()" [attr.aria-expanded]="iscollapse2"
+        aria-controls="collapseExample" [style.background-color]="iscollapse2 == false ? 'blue' : 'grey'" [style.color]="iscollapse2 == false ? 'white' : 'black'">
+        Jul 2015 - Nov 2016
+      </button>
+    </div>
+  </div>
+  <div id="collapseExample" [ngbCollapse]="iscollapse">
+    <div class="card">
+      <div class="card-body">
+        <div class="page">
+          <div class="container-fluid">
+            <div class="row" style="margin-bottom: 0%">
+              <div class="col-lg-6">
+                <h5><strong>Brilliant Infotech Inc</strong></h5>
+              </div>
+              <div class="col-lg-6" style="text-align: right ; margin-bottom: 0%">
+                <h5><strong>Jan 2019 TO April 2019</strong></h5>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="row" style="margin-top: 0% ; margin-bottom: 0%">
+              <div class="col-lg-12" style="text-align: left ; margin-bottom: 0%; margin-left: 0% ; color: navy">
+                <h5><strong>JUNIOR JAVA FULL STACK DEVELOPER</strong></h5>
+              </div>
+
+            </div>
+            <div class="row" style="margin-top: 0% ; margin-bottom: 0%">
+              <div class="col-lg-12">
+                <p> <strong>TECH STACK : CORE JAVA, SPRING BOOT, ANGULAR 5, MONGODB</strong></p>
+              </div>
+            </div>
+            <div class="row" style="margin-top: 0%; margin-bottom: 0%">
+              <div class="col-lg-12">
+                <p>Working on the insourcing product where data is collected from the github for different project of
+                  organization for outsourcing the product inside the organization, so that employees within
+                  organization
+                  can
+                  contribute to the products.</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top: 0%; margin-bottom: 0%">
+              <div class="col-lg-12">
+                <p><strong>ROLES AND RESPONSIBILITIES</strong></p>
+                <ul>
+                  <li>Working on creating API’s in Spring boot using MongodbRepository and spring data</li>
+                  <li>Writing test functions in spring boot using Mockito.</li>
+                  <li>Changing the code written in java 8 for collecting data from Github</li>
+                  <li>Creating components and Services in Angular 4 according to change required</li>
+                  <li>Modularizing the conde written in Java 8 to keep it clean</li>
+                  <li>Writing query’s In MongoDB for making API calls from spring boot.</li>
+                  <li> Training interns joining the team in spring boot and core java</li>
+                  <li>Deploying the UI on AWS using docker Image.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="collapseExample" [ngbCollapse]="iscollapse1">
+    <div class="card">
+      <div class="card-body">
+        <div class="page">
+          <div class="container-fluid">
+            <div class="row" style="margin-bottom: 0%">
+              <div class="col-lg-6">
+                <h5><strong>Brilliant Infotech Inc</strong></h5>
+              </div>
+              <div class="col-lg-6" style="text-align: right ; margin-bottom: 0%">
+                <h5><strong>July 2018 TO Jan 2019</strong></h5>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="row" style="margin-top: 0% ; margin-bottom: 0%">
+              <div class="col-lg-12" style="text-align: left ; margin-bottom: 0%; margin-left: 0% ; color: navy">
+                <h5><strong>JUNIOR JAVA FULL STACK DEVELOPER</strong></h5>
+              </div>
+
+            </div>
+            <div class="row" style="margin-top: 0% ; margin-bottom: 0%">
+              <div class="col-lg-12">
+                <p> <strong>TECH STACK : CORE JAVA, ANGULAR 5, AWS LAMBDA FUNCTION, AWS COGNITO</strong></p>
+              </div>
+            </div>
+            <div class="row" style="margin-top: 0%; margin-bottom: 0%">
+              <div class="col-lg-12">
+                <p>Brilliant Academe is a B to C(Business to Consumers) e-Learning JEE platform being built by the
+                  organization, to fulfill the need for good quality, scalable and reliable(platform) training course
+                  content in several technical and non technical streams.
+                </p>
+              </div>
+            </div>
+            <div class="row" style="margin-top: 0%; margin-bottom: 0%">
+              <div class="col-lg-12">
+                <p><strong>ROLES AND RESPONSIBILITIES</strong></p>
+                <ul>
+                  <li>Working on login and registration functionality for the application using Java, Web Services, AWS
+                  </li>
+                  <li>Working on the course search and student course enrollment module using Angular.js</li>
+                  <li>Working on developing web-based course hosting platform using Amazon Lambda functions</li>
+                  <li>Integration of module screens to the backend services using Core Java and Spring.</li>
+                  <li>Working on the UI screens for Brilliant Academe using Angular 6, HTML5</li>
+
+                </ul>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="collapseExample" [ngbCollapse]="iscollapse2">
+    <div class="card">
+      <div class="card-body">
+        <div class="page">
+          <div class="container-fluid">
+            <div class="row" style="margin-bottom: 0%">
+              <div class="col-lg-6">
+                <h5><strong>Ideal Infotech INC</strong></h5>
+              </div>
+              <div class="col-lg-6" style="text-align: right ; margin-bottom: 0%">
+                <h5><strong>July 2015 TO November 2016</strong></h5>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="row" style="margin-top: 0% ; margin-bottom: 0%">
+              <div class="col-lg-12" style="text-align: left ; margin-bottom: 0%; margin-left: 0% ; color: navy">
+                <h5><strong>SOFTWARE ENGINEER INTERN</strong></h5>
+              </div>
+
+            </div>
+            <div class="row" style="margin-top: 0% ; margin-bottom: 0%">
+              <div class="col-lg-12">
+                <p> <strong>TECH STACK : CORE JAVA, SPRING, HIBERNATE, JSP, JAVASCRIPT</strong></p>
+              </div>
+            </div>
+            <div class="row" style="margin-top: 0%; margin-bottom: 0%">
+              <div class="col-lg-12">
+                <p>Worked in software development team as intern. This team was involved in many applications, so I
+                  worked on many project and was involve in different phases of projects from design to develop to
+                  implementation.
+                </p>
+              </div>
+            </div>
+            <div class="row" style="margin-top: 0%; margin-bottom: 0%">
+              <div class="col-lg-12">
+                <p><strong>ROLES AND RESPONSIBILITIES</strong></p>
+                <ul>
+                  <li>Worked as a Software Developer to design and develop multi-tiered employee management system for
+                    client. This application was developed for internal accounting services of client to provide various
+                    in-house services such as employee/contractors’ timesheets, payroll management, external
+                    order/inventory products and assets tracking, generating invoice and various reports for managements
+                    personnel.</li>
+                  <li> Performed the CRUD operations of the application using Hibernate.</li>
+                  <li>It was designed using Java, JSP, Servlets, Apache Struts, JDBC and JavaScript. J2EE design pattern
+                    such as Model View Controller (MVC) was employed where a clean separation between the model, view,
+                    and controller is implemented. </li>
+                  <li>Primarily responsible for designing and coding business logic using Java technologies.</li>
+                  <li> Successfully and effectively completed many tasks on time. Effectively work with other team
+                    members to acquire more knowledge and mentor others on a need basis. Enhance overall delivery of
+                    tasks through high quality deliverables, timely execution, and high productivity rate.</li>
+
+
+                </ul>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

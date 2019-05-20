@@ -1,0 +1,27 @@
+
+  .year{
+    text-align: right;
+    justify-content: left;
+    font-weight: bold;
+   }
+   .line {
+     width: 98%;
+     border: 1px solid darkgreen;
+     margin: 0px 1%;
+     padding-top: 0px;
+     display:inline-block;
+   }
+   .degree{
+       margin-bottom: 0%;
+       padding-bottom: 0%;
+   }
+ 
+   .logoimg{
+       height: 80%;
+       width: 80%;
+   }
+ 
+   .body{
+       margin-top: 0px;
+   }
+ 

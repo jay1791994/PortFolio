@@ -2,13 +2,17 @@
     <div class="row">
        <div class="col-lg-1">
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
           </div>
-          <div class="col-lg-6">
-              <li><a routerLink="bachelor">BS</a></li>
-              <li><a routerLink="master">MS</a></li>
+          <div class="col-lg-4">
+              <nav class="navbar navbar-default" id="navbar">
+              <ul class="nav navbar-nav">
+              <li><a routerLink="bachelor" (click)="changecolorblue()">BS</a></li>
+              <li><a routerLink="master" (click)="changecolorgreen()">MS</a></li>
+              </ul>
+            </nav>
            </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
 
              
             </div>

@@ -1,6 +1,6 @@
 .navbar-inverse{
     display: flex;
-    background-color: blue;
+    background:linear-gradient(to right, #072f5f 40%, #1261A0 100%);
 }
 .navbar-nav{
     display: inline;
@@ -30,3 +30,8 @@
    background-color: aliceblue; 
    color : blue;
 }
+
+.navbar-nav li a:active{
+    background-color: aliceblue; 
+    color : blue;
+ }

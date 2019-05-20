@@ -10,6 +10,24 @@ export class EducationComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+  }
+  
+  changecolorblue(){
+
+    var element = document.getElementById("navbar");
+    console.log(element);
+    element.style.backgroundColor = "navy";
+
+
+  }
+  changecolorgreen(){
+
+    var element = document.getElementById("navbar");
+    console.log(element);
+    element.style.backgroundColor = "#006000";
+
+
   }
 
 }

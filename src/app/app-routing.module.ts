@@ -30,6 +30,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'credentials', component: CredentialsComponent },
   { path: 'contact', component: ContactComponent },
+  {path:'', component:HomeComponent, pathMatch:'full'}
 
 ];
 
